@@ -6,14 +6,8 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.somic-packaging.metteagle",
     "multiInstance": false,
-    "editor": "8080/",
-    "env": [
-        "VideoFileLocation=/app/assets"
-    ],
+    "editor": "8080",
     "ports": [
         "8080:8080"
-    ],
-    "volumes": [
-        "metteagle:/app/assets"
     ]
 }
