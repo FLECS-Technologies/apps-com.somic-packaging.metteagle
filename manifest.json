@@ -16,6 +16,7 @@
     "env": [
         "VideoFileLocation=/app/metteagle/assets",
         "ApplicationSettingsPath=/app/metteagle/metteagle.yaml",
-        "ConnectionStrings__MettEagleDbConnection=Username=eagle;Password=S3cret;Host=flecs-79a7eb05;Port=5432;Database=eagle;Pooling=true"
+        "ConnectionStrings__MettEagleDbConnection=Username=eagle;Password=S3cret;Host=flecs-79a7eb05;Port=5432;Database=eagle;Pooling=true",
+        "MetteagleLocation=/app/metteagle/"
     ]
 }
