@@ -8,7 +8,7 @@
     "multiInstance": false,
     "editor": ":8080",
     "ports": [
-        "8080:8080"
+        "8081:8080"
     ],
     "volumes": [
         "/home/somic/app/metteagle/:/metteagle"
@@ -17,6 +17,11 @@
         "VideoFileLocation=/app/metteagle/assets",
         "ApplicationSettingsPath=/app/metteagle/metteagle.yaml",
         "ConnectionStrings__SQLiteDefault=DataSource=/app/metteagle/metteagle.db",
-        "MetteagleLocation=/app/metteagle/"
+        "MetteagleLocation=/app/metteagle/",
+        "Kiosk__LauncherEnabled=false",
+        "CameraType=SEC100",
+        "NotificationApi__BaseUrl=http://localhost:5222",
+        "authFreeTrigger=false",
+        "UseTcpTrigger=false"
     ]
 }
