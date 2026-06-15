@@ -14,10 +14,10 @@
         "/home/somic/app/metteagle/:/metteagle"
     ],
     "env": [
-        "VideoFileLocation=/app/metteagle/assets",
-        "ApplicationSettingsPath=/app/metteagle/metteagle.yaml",
-        "ConnectionStrings__SQLiteDefault=DataSource=/app/metteagle/metteagle.db",
-        "MetteagleLocation=/app/metteagle/",
+        "VideoFileLocation=/metteagle/assets",
+        "ApplicationSettingsPath=/metteagle/metteagle.yaml",
+        "ConnectionStrings__SQLiteDefault=DataSource=/metteagle/metteagle.db",
+        "MetteagleLocation=/metteagle/",
         "Kiosk__LauncherEnabled=false",
         "CameraType=SEC100",
         "NotificationApi__BaseUrl=http://localhost:5222",
