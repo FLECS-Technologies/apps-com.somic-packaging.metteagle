@@ -22,6 +22,11 @@
         "CameraType=SEC100",
         "NotificationApi__BaseUrl=http://localhost:5222",
         "authFreeTrigger=false",
-        "UseTcpTrigger=false"
+        "UseTcpTrigger=false",
+        "Camera_Service=sick",
+        "Spider_ApiBaseUrl=http://localhost:6700",
+        "Spider_RtspPort=554",
+        "Spider_RtspPath=/live/0",
+        "Spider_HLS_Playlist_Name=index.m3u8"
     ]
 }
